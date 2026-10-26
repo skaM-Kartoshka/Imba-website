@@ -4,13 +4,32 @@
 }
 header{
     background:url(img/241.jpg) ;
+    height: 60px;
+    border-bottom: 10px solid rgb(10, 102, 5);
 }
 main{
     background: url(img/images.jpg);
-    display: flexbox;
-
+    display: flex;
 }
+
 nav{
+    display: flex;
     background-color: rgb(18, 168, 118);
     justify-self: left;
+    justify-content: center;
+    flex-direction: column;
+    border-right: 10px solid rgb(10, 102, 5);
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav button{
+    background-color: rgb(2, 153, 22);
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
