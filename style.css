@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background:url(img/241.jpg) ;
+}
+main{
+    background: url(img/images.jpg);
+    display: flexbox;
+
+}
+nav{
+    background-color: rgb(18, 168, 118);
+    justify-self: left;
+}
