@@ -1,35 +1,82 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Good;
+}
+
+@font-face {
+    font-family:Good;
+    src: url(Font/Play-Regular.ttf);
+}
+@font-face {
+    font-family:Goodbold;
+    src: url(Font/Play-Bold.ttf);
 }
 header{
     background:url(img/241.jpg) ;
     height: 60px;
-    border-bottom: 10px solid rgb(10, 102, 5);
+    border-bottom: 10px solid rgba(16, 193, 7, 0.833);
 }
 main{
     background: url(img/images.jpg);
     display: flex;
+    height: 100vh;
 }
 
 nav{
     display: flex;
-    background-color: rgb(18, 168, 118);
+    background-color: rgba(6, 152, 52, 0.696);
     justify-self: left;
     justify-content: center;
     flex-direction: column;
-    border-right: 10px solid rgb(10, 102, 5);
+    border-right: 10px solid rgba(16, 193, 7, 0.833);
 }
 
 nav a{
     text-decoration: none;
     color: black;
+    font-family: Goodbold;
 }
 nav button{
-    background-color: rgb(2, 153, 22);
+    background: rgb(96, 180, 28);
     border-radius: 10px;
     padding: 20px 30px;
     margin-top: 30px;
     margin-left: 10px;
     margin-right: 10px;
+    border:5px solid rgb(38, 195, 56);
+}
+
+.cardcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    gap: 20px;
+}
+.card{
+    width: 220px;
+    height: 270px;
+    background: rgb(96, 180, 28);
+    border-radius: 25px;
+    text-align: center;
+    transition: 0.3s;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.plant{
+    margin: auto;
+}
+.card img{
+    width: 200px;
+    border-radius: 20px;
+}
+.card:hover{
+    scale: 1.05;
+    box-shadow: 0px 0px 20px rgb(30, 216, 6);
+}
+footer{
+    background-color: rgb(26, 160, 42);
+    color: rgb(0, 0, 0);
+    text-align: center;
 }
