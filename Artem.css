@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
 
 body {
     font-family: Arial, sans-serif;
@@ -20,7 +17,7 @@ body {
 header {
     text-align: center;
     padding: 70px 20px;
-    background: linear-gradient(135deg, #fffbd1, #dfffb0);
+    background: linear-gradient(to bottom, #fffbd1, #dfffb0);
 }
 
 header h1 {
@@ -151,7 +148,7 @@ section h2 {
     font-size: 22px;
 }
 
-/* Факти */
+
 
 .facts {
     list-style: none;
@@ -191,16 +188,6 @@ footer {
     color: white;
 }
 
-/* Анімація */
 
-@keyframes float {
-    0%, 100% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-15px);
-    }
-}
 
 
