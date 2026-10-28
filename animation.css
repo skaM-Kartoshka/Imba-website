@@ -1,0 +1,48 @@
+@keyframes Kryto{
+    0% {
+        transform: translateY(-40vh);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes Kryto2{
+    0% {
+        transform: translateY(40vh);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes button{
+    0% {
+        transform: translateX(-25vw) rotate(7deg);
+        opacity: 0;
+    }
+    50% {
+        transform: rotate(-7deg);
+    }
+    75% {
+        transform: rotate(7deg);
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes B{
+    0% {
+        transform: translateX(-25vw);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

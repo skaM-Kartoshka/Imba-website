@@ -16,7 +16,93 @@ header{
     background:url(img/241.jpg) ;
     height: 60px;
     border-bottom: 10px solid rgba(16, 193, 7, 0.833);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+header p{
+    color:rgb(255, 255, 255);
+    text-shadow: 4px 4px 0 rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: Goodbold;
+}
+.q19{
+    animation: B 1s both;
+    animation-delay: 0.5s;
+}
+.q18{
+    animation: B 1s both;
+    animation-delay: 1s;
+}
+.q17{
+    animation: B 1s both;
+    animation-delay: 1.5s;
+}
+.q16{
+    animation: B 1s both;
+    animation-delay: 2s;
+}
+.q15{
+    animation: B 1s both;
+    animation-delay: 2.5s;
+}
+.q14{
+    animation: B 1s both;
+    animation-delay: 3s;
+}
+.q13{
+    animation: B 1s both;
+    animation-delay: 3.5s;
+}
+.q12{
+    animation: B 1s both;
+    animation-delay: 4s;
+}
+.q11{
+    animation: B 1s both;
+    animation-delay: 4.5s;
+}
+.q10{
+    animation: B 1s both;
+    animation-delay: 5s;
+}
+.q9{
+    animation: B 1s both;
+    animation-delay: 5.5s;
+}
+.q8{
+    animation: B 1s both;
+    animation-delay: 6s;
+}
+.q7{
+    animation: B 1s both;
+    animation-delay: 6.5s;
+}
+.q6{
+    animation: B 1s both;
+    animation-delay: 7s;
+}
+.q5{
+    animation: B 1s both;
+    animation-delay: 7.5s;
+}
+.q4{
+    animation: B 1s both;
+    animation-delay: 8s;
+}
+.q3{
+    animation: B 1s both;
+    animation-delay: 8.5s;
+}
+.q2{
+    animation: B 1s both;
+    animation-delay: 9s;
+}
+.q1{
+    animation: B 1s both;
+    animation-delay: 9.5s;
+}
+
 main{
     background: url(img/images.jpg);
     display: flex;
@@ -30,12 +116,14 @@ nav{
     justify-content: center;
     flex-direction: column;
     border-right: 10px solid rgba(16, 193, 7, 0.833);
+    margin-right: 20px;
 }
 
 nav a{
     text-decoration: none;
     color: black;
     font-family: Goodbold;
+    padding: 20px 40px;
 }
 nav button{
     background: rgb(96, 180, 28);
@@ -45,30 +133,60 @@ nav button{
     margin-left: 10px;
     margin-right: 10px;
     border:5px solid rgb(38, 195, 56);
+    transition: 0.3s;
+    animation: button 1s both;
 }
 
 .cardcontainer{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
     gap: 20px;
+    margin-top: 20px;
 }
 .card{
-    width: 220px;
-    height: 270px;
+    width: 290px;
+    height: 400px;
     background: rgb(96, 180, 28);
     border-radius: 25px;
     text-align: center;
     transition: 0.3s;
     padding-bottom: 5px;
     padding-top: 5px;
+    align-self: center;
+    animation: Kryto 1s both;
+}
+.card:nth-child(2){
+    animation: Kryto2 1s both;
+    animation-delay: 0.5s;
+}
+.card:nth-child(3){
+    animation-delay: 1s;
+}
+.card:nth-child(4){
+    animation: Kryto2 1s both;
+        animation-delay: 1.5s;
+}
+
+
+nav button:nth-child(1){
+    animation-delay: 0s;
+}
+nav button:nth-child(2){
+    animation-delay: 0.5s;
+}
+nav button:nth-child(3){
+    animation-delay: 1s;
+}
+nav button:nth-child(4){
+    animation-delay: 1.5s;
 }
 .plant{
     margin: auto;
 }
 .card img{
-    width: 200px;
+    width: 250px;
+    height: 340px;
     border-radius: 20px;
 }
 .card:hover{
@@ -79,4 +197,11 @@ footer{
     background-color: rgb(26, 160, 42);
     color: rgb(0, 0, 0);
     text-align: center;
+}
+nav button:hover{
+    scale: 1.05;
+    box-shadow: 0px 0px 20px rgb(30, 216, 6);
+}
+nav button :active{
+    background-color: rgb(25, 96, 4);
 }
