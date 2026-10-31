@@ -118,7 +118,7 @@ header a{
 main{
     background: url(img/images.jpg);
     display: flex;
-    height: 100vh;
+    height: 101vh;
 }
 
 nav{
